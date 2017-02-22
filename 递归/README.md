@@ -9,10 +9,10 @@ From: [UVa 10079](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&I
 
 附：k维空间被n条直线最多被分为
 
-![](https://github.com/HMBSbige/DHU_Algorithm/递归/picture/1.png)
+![](https://raw.githubusercontent.com/HMBSbige/DHU_Algorithm/master/%E9%80%92%E5%BD%92/picture/1.png)
 
 或
 
-![](https://github.com/HMBSbige/DHU_Algorithm/递归/picture/2.png)
+![](https://raw.githubusercontent.com/HMBSbige/DHU_Algorithm/master/%E9%80%92%E5%BD%92/picture/2.png)
 
 块
