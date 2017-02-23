@@ -7,9 +7,9 @@ From: [UVa 10079](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&I
 
 利用递归或者简化成等差数列求和公式直接求。
 
-[My solution](https://github.com/HMBSbige/DHU_Algorithm/blob/master/%E9%80%92%E5%BD%92/UVa%2010079.cpp)
+[My solution](https://github.com/HMBSbige/DHU_Algorithm/blob/master/1-%E9%80%92%E5%BD%92/UVa%2010079.cpp)
 
-附：k维空间被n条直线最多被分为![](https://raw.githubusercontent.com/HMBSbige/DHU_Algorithm/master/%E9%80%92%E5%BD%92/picture/1.png)或![](https://raw.githubusercontent.com/HMBSbige/DHU_Algorithm/master/%E9%80%92%E5%BD%92/picture/2.png)块
+附：k维空间被n条直线最多被分为![](https://raw.githubusercontent.com/HMBSbige/DHU_Algorithm/master/1-%E9%80%92%E5%BD%92/picture/1.png)或![](https://raw.githubusercontent.com/HMBSbige/DHU_Algorithm/master/1-%E9%80%92%E5%BD%92/picture/2.png)块
 ## Problem B : Bee
 From: [UVa 11000](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1941)
 
@@ -29,7 +29,7 @@ From: [UVa 11000](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&I
 
 题目限制结果必小于 1LL<<32 ,则n<=47，用long long即可
 
-[My solution](https://github.com/HMBSbige/DHU_Algorithm/blob/master/%E9%80%92%E5%BD%92/UVa%2011000.cpp)
+[My solution](https://github.com/HMBSbige/DHU_Algorithm/blob/master/1-%E9%80%92%E5%BD%92/UVa%2010079.cpp)
 
 附：求斐波那契数列的三种方法
 
