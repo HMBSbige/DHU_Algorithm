@@ -29,7 +29,7 @@ From: [UVa 11000](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&I
 
 题目限制结果必小于 1LL<<32 ,则n<=47，用long long即可
 
-[My solution](https://github.com/HMBSbige/DHU_Algorithm/blob/master/1-%E9%80%92%E5%BD%92/UVa%2010079.cpp)
+[My solution](https://github.com/HMBSbige/DHU_Algorithm/blob/master/1-%E9%80%92%E5%BD%92/UVa%2011000.cpp)
 
 附：求斐波那契数列的三种方法
 
