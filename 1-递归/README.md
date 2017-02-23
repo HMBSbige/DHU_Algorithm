@@ -10,7 +10,9 @@ From: [UVa 10079](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&I
 [My solution](https://github.com/HMBSbige/DHU_Algorithm/blob/master/1-%E9%80%92%E5%BD%92/UVa%2010079.cpp)
 
 附：k维空间被n条直线最多被分为![](https://raw.githubusercontent.com/HMBSbige/DHU_Algorithm/master/1-%E9%80%92%E5%BD%92/picture/1.png)或![](https://raw.githubusercontent.com/HMBSbige/DHU_Algorithm/master/1-%E9%80%92%E5%BD%92/picture/2.png)块
+
 ## Problem B : Bee
+
 From: [UVa 11000](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1941)
 
 由题意得
@@ -36,7 +38,7 @@ From: [UVa 11000](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&I
 经测试运行效率：
 迭代>通项公式>>递归
 
-```cpp
+```
 uLL _(int n) //通项公式 general formula n<=71
 {
 	return (uLL)((1 / sqrt(5))*(powl((1 + sqrt(5)) / 2.0, n) - powl((1 - sqrt(5)) / 2.0, n)));
@@ -64,3 +66,15 @@ uLL ___(int n)//递归 iteration
 	return ___(n - 1) + ___(n - 2);
 }
 ```
+
+# Problem C : Brick Wall Patterns
+
+From: [UVa 900](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=11&page=show_problem&problem=841)
+
+题目可以化简为：把正整数n分解为由一组1、2相加的排列数
+
+把有 0 个2到 n/2 个2的排列数加起来就是答案
+
+当然这个式子可以化简合并为第n+1个斐波那契数
+
+[My solution](https://github.com/HMBSbige/DHU_Algorithm/blob/master/1-%E9%80%92%E5%BD%92/UVa%20900.cpp)
