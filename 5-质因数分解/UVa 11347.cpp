@@ -43,7 +43,7 @@ void MakePrime(ull N)//膜改快速线性筛法
 	}
 }
 int main() {
-	int t, n, k;//把n定义为unsigned long long居然会TLE!!
+	int t, n, k;//不小心把n定义为无符号数，结果TLE了一晚上
 	string s;
 	MakePrime(1000);
 	cin >> t;
