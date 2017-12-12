@@ -42,36 +42,43 @@ void MakePrime(ull N)//膜改快速线性筛法
 		}
 	}
 }
-int main() {
-	int t, n, k;//不小心把n定义为无符号数，结果TLE了一晚上
+int main()
+{
+	int t, n, k; //不小心把n定义为无符号数，结果TLE了一晚上
 	string s;
 	MakePrime(1000);
 	cin >> t;
-	for (int _ = 1; _ <= t; ++_) {
+	for (int _ = 1; _ <= t; ++_)
+	{
 		cin >> n >> s;
 		k = s.size();
 		vector<ull> b(Primes.size(), 0);
 
-	for (; n > 1; n -= k) {
-		int temp = n;
-		for (int i = 0; temp>1 && i < Primes.size(); ++i) {
-			while (!(temp % Primes[i])) {
-				temp /= Primes[i];
-				++b[i];
+		for (; n > 1; n -= k)
+		{
+			int temp = n;
+			for (int i = 0; temp > 1 && i < Primes.size(); ++i)
+			{
+				while (!(temp % Primes[i]))
+				{
+					temp /= Primes[i];
+					++b[i];
+				}
 			}
 		}
-	}
 
-	ull ans = 1;
-	for (int i = 0; i < b.size(); ++i) {
-		ans *= b[i] + 1;
-		if (ans > (ull)1e18) {
-			cout << "Case " << _ << ": Infinity" << endl;
-			goto END;
-		}		
+		ull ans = 1;
+		for (int i = 0; i < b.size(); ++i)
+		{
+			ans *= b[i] + 1;
+			if (ans > (ull)1e18)
+			{
+				cout << "Case " << _ << ": Infinity" << endl;
+				goto END;
+			}
+		}
+		cout << "Case " << _ << ": " << ans << endl;
+	END:;
 	}
-	cout << "Case " << _ << ": " << ans << endl;
-END:;
-}
 	return 0;
 }
