@@ -1,7 +1,7 @@
-# 2017 算法 素数
+# 2017 算法 线
 ## Problem A : Intersection
 
-From: [UVa 191](Intersection)
+From: [UVa 191](https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=127)
 
 判断直线与矩形是否相交
 
@@ -32,4 +32,3 @@ From: [UVa 11343](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&I
 找出独立线段即不与其他任何线段有交点
 
 [My solution](https://github.com/HMBSbige/DHU_Algorithm/blob/master/4-%E7%BA%BF/UVa%2011343.cpp)
-
